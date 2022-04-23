@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Test2Quiz</string>
+    <string name="preview">Preview</string>
+    <string name="submit">Submit</string>
+    <string name="add">Add</string>
+    <string name="update">Update</string>
+    <string name="delete">Delete</string>
+    <string name="create_quiz">Create Quiz</string>
+    <string name="question">Question</string>
+    <string name="answer_1">Answer 1</string>
+    <string name="answer_2">Answer 2</string>
+    <string name="answer_3">Answer 3</string>
+    <string name="insert_question_missing">Question Missing</string>
+    <string name="insert_options_missing">Options Missing</string>
+    <string name="insert_answer_missing">Answer Missing</string>
+    <string name="insert_question_failed">Insert Question Failed</string>
+    <string name="insert_question_success">Question Added!</string>
+    <string name="insert_field_missing">Please check the fields</string>
+    <string name="quiz">Quiz</string>
+    <string name="question_quiz">Question Here</string>
+    <string name="option_1">Option 1</string>
+    <string name="option_2">Option_2</string>
+    <string name="option_3">Option_3</string>
+    <string name="next">Next</string>
+    <string name="title_new_question">Add a question</string>
+    <string name="title_edit_question">Edit Question</string>
+    <string name="update_question_failed">Error with updating question</string>
+    <string name="update_question_success">Question updated!</string>
+    <string name="delete_dialog_msg">Delete this Question?</string>
+    <string name="delete_question_failed">Question could not get deleted!</string>
+    <string name="delete_question_successful">Question Deleted!</string>
+    <string name="cancel">Cancel</string>
+
+</resources>

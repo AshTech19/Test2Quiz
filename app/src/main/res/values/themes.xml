@@ -1,0 +1,57 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Test2Quiz" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ButtonOrange" parent="@android:style/Widget.Button">
+        <item name="android:background">@color/button_orange</item>
+    </style>
+
+    <style name="ButtonOrange1" parent="@android:style/Widget.Button">
+        <item name="android:background">@color/orange_500</item>
+    </style>
+
+    <style name="FormTabLayout" parent="Widget.Design.TabLayout">
+        <item name="tabBackground">@android:color/transparent</item>
+        <item name="tabIndicatorColor">@android:color/white</item>
+        <item name="tabSelectedTextColor">@android:color/white</item>
+        <item name="tabIndicatorHeight">0dp</item>
+    </style>
+
+    <style name="Form1Input">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/activity_vertical_margin</item>
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:inputType">text|textCapSentences</item>
+        <item name="android:textCursorDrawable">@drawable/form_color_cursor</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="FormTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@android:color/transparent</item>
+        <item name="colorPrimaryDark">@android:color/transparent</item>
+        <item name="colorAccent">@color/loginSignup6colorAccent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="MenuNavigation6Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/menuNavigationcolorPrimary</item>
+        <item name="colorPrimaryDark">@color/menuNavigationcolorPrimaryDark</item>
+        <item name="colorAccent">@color/menuNavigationcolorAccent</item>
+    </style>
+
+</resources>

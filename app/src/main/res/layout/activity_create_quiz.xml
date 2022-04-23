@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/header_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:elevation="10dp"
+            android:text="@string/create_quiz"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="50sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/simple_white_button">
+
+            <EditText
+                android:id="@+id/questionBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="25dp"
+                android:padding="20dp"
+                android:inputType="textMultiLine"
+                android:textSize="16sp"
+                android:textColorHint="@android:color/black"
+                android:hint="@string/question"
+                android:importantForAutofill="no"/>
+
+            <RelativeLayout
+                android:id="@+id/layoutOption1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <RadioButton
+                    android:id="@+id/btnOption1"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="15dp"
+                    android:button="@android:color/transparent"/>
+
+                <EditText
+                    android:id="@+id/textOption1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginEnd="25dp"
+                    android:inputType="text"
+                    android:textSize="16sp"
+                    android:importantForAutofill="no" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layoutOption2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <RadioButton
+                    android:id="@+id/btnOption2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="15dp"
+                    android:button="@android:color/transparent"/>
+
+
+                <EditText
+                    android:id="@+id/textOption2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginEnd="25dp"
+                    android:inputType="text"
+                    android:textSize="16sp"
+                    android:importantForAutofill="no" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/layoutOption3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <RadioButton
+                    android:id="@+id/btnOption3"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="15dp"
+                    android:button="@android:color/transparent"/>
+
+
+                <EditText
+                    android:id="@+id/textOption3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="60dp"
+                    android:layout_marginEnd="25dp"
+                    android:inputType="text"
+                    android:textSize="16sp"
+                    android:importantForAutofill="no" />
+
+            </RelativeLayout>
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner_answer"
+                android:layout_margin="50dp"
+                />
+
+            <Button
+                android:id="@+id/btnAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center_horizontal"
+                android:text="@string/add"
+                android:textAllCaps="false"
+                android:textSize="23sp"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/update"
+            android:textAllCaps="false"
+            android:textSize="23sp"
+            android:textColor="@android:color/white"/>
+
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/delete"
+            android:textAllCaps="false"
+            android:textSize="23sp"
+            android:textColor="@android:color/white"/>
+
+        <Button
+            android:id="@+id/btnDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/submit"
+            android:textAllCaps="false"
+            android:textSize="23sp"
+            android:textColor="@android:color/white"/>
+
+
+        <Button
+            android:id="@+id/btnPreview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="15dp"
+            android:layout_gravity="center_horizontal"
+            android:text="@string/preview"
+            android:textAllCaps="false"
+            android:textSize="23sp"
+            android:textColor="@android:color/white"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
